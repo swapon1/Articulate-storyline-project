@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnanbnsnfns10111000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnanbnsnfns00011000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
   <layouts>
-    <layout name="npnxnanbsnfns10111000101" font="Lato" controllayout="npnxnanbsnfns10111000101" colorscheme="npxnanbnsnfns10111000101" string_table="npxnanbnsnfns10111000101" />
-    <layout name="pxabnsnfns10111000101" font="Lato" controllayout="pxabnsnfns10111000101" colorscheme="npxnanbnsnfns10111000101" string_table="npxnanbnsnfns10111000101" />
-    <layout name="npxnabnsnfns10111000101" font="Lato" controllayout="npxnabnsnfns10111000101" colorscheme="npxnanbnsnfns10111000101" string_table="npxnanbnsnfns10111000101" />
-    <layout name="npnxnanbnsnfns10111000101" font="Lato" controllayout="npnxnanbnsnfns10111000101" colorscheme="npxnanbnsnfns10111000101" string_table="npxnanbnsnfns10111000101" />
-    <layout name="pxabnsnfns10111000100" font="Lato" controllayout="pxabnsnfns10111000100" colorscheme="npxnanbnsnfns10111000101" string_table="npxnanbnsnfns10111000101" />
-    <layout name="npxnanbnsnfns10111000101" font="Lato" controllayout="npxnanbnsnfns10111000101" colorscheme="npxnanbnsnfns10111000101" string_table="npxnanbnsnfns10111000101" />
+    <layout name="npnxnanbsnfns00011000101" font="Lato" controllayout="npnxnanbsnfns00011000101" colorscheme="npxnanbnsnfns00011000101" string_table="npxnanbnsnfns00011000101" />
+    <layout name="pxabnsnfns00011000101" font="Lato" controllayout="pxabnsnfns00011000101" colorscheme="npxnanbnsnfns00011000101" string_table="npxnanbnsnfns00011000101" />
+    <layout name="npxnabnsnfns00011000101" font="Lato" controllayout="npxnabnsnfns00011000101" colorscheme="npxnanbnsnfns00011000101" string_table="npxnanbnsnfns00011000101" />
+    <layout name="npnxnanbnsnfns00011000101" font="Lato" controllayout="npnxnanbnsnfns00011000101" colorscheme="npxnanbnsnfns00011000101" string_table="npxnanbnsnfns00011000101" />
+    <layout name="pxabnsnfns00011000100" font="Lato" controllayout="pxabnsnfns00011000100" colorscheme="npxnanbnsnfns00011000101" string_table="npxnanbnsnfns00011000101" />
+    <layout name="npxnanbnsnfns00011000101" font="Lato" controllayout="npxnanbnsnfns00011000101" colorscheme="npxnanbnsnfns00011000101" string_table="npxnanbnsnfns00011000101" />
+    <layout name="pnxnanbnsnfns00011000101" font="Lato" controllayout="pnxnanbnsnfns00011000101" colorscheme="npxnanbnsnfns00011000101" string_table="npxnanbnsnfns00011000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -23,7 +24,7 @@
           <option name="sidebar_enabled" value="true">
             <options>
               <option name="sidebarpos" value="left" />
-              <option name="closed" value="false" />
+              <option name="closed" value="true" />
             </options>
           </option>
           <optionlist name="tabs">
@@ -60,14 +61,14 @@
       <optiongroup name="controls">
         <options>
           <option name="volume" value="true" />
-          <option name="seekbar" value="true">
+          <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
           <option name="pauseplay" value="true" />
-          <option name="replay" value="true" />
+          <option name="replay" value="false" />
           <option name="search" value="false" />
           <option name="closed_captions" value="false">
             <options>
@@ -76,6 +77,7 @@
           </option>
           <option name="settings" value="true" />
           <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -93,10 +95,10 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10111000101">
+    <control_layout name="npnxnanbsnfns00011000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
@@ -117,10 +119,10 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10111000101">
+    <control_layout name="pxabnsnfns00011000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
@@ -141,10 +143,10 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10111000101">
+    <control_layout name="npxnabnsnfns00011000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
@@ -165,10 +167,10 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10111000101">
+    <control_layout name="npnxnanbnsnfns00011000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
@@ -189,10 +191,10 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10111000100">
+    <control_layout name="pxabnsnfns00011000100">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
@@ -213,10 +215,10 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npxnanbnsnfns10111000101">
+    <control_layout name="npxnanbnsnfns00011000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
@@ -237,9 +239,33 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
+    <control_layout name="pnxnanbnsnfns00011000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npxnanbnsnfns10111000101">
+    <colorscheme name="npxnanbnsnfns00011000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1416,7 +1442,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npxnanbnsnfns10111000101">
+    <string_table name="npxnanbnsnfns00011000101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1581,12 +1607,13 @@
       <links>
         <slidelink slideid="_player.6nVQZzLn1FV" displaytext="Bangladesh" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6nVQZzLn1FV.5qpDCogq691" displaytext="Overview" expand="false" type="slide" />
-            <slidelink slideid="_player.6nVQZzLn1FV.5lPjQe8bonf" displaytext="Menu" expand="false" type="slide" />
+            <slidelink slideid="_player.6nVQZzLn1FV.5qpDCogq691" displaytext="Objective" expand="false" type="slide" />
+            <slidelink slideid="_player.6nVQZzLn1FV.5lPjQe8bonf" displaytext="Overview" expand="false" type="slide" />
             <slidelink slideid="_player.6nVQZzLn1FV.6I60W4jtKkM" displaytext="History" expand="false" type="slide" />
             <slidelink slideid="_player.6nVQZzLn1FV.5z6iY5eb1M2" displaytext="Culture" expand="false" type="slide" />
             <slidelink slideid="_player.6nVQZzLn1FV.6OPphSAhBNA" displaytext="Food" expand="false" type="slide" />
             <slidelink slideid="_player.6nVQZzLn1FV.6rn3Ceer4JJ" displaytext="Transportation" expand="false" type="slide" />
+            <slidelink slideid="_player.6nVQZzLn1FV.6AT3eeJZ8Wj" displaytext="Thank you!" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
