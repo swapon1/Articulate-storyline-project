@@ -6,7 +6,7 @@
     <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
       <general>
         <title>
-          <langstring xml:lang="x-none">Bangladesh Introduction</langstring>
+          <langstring xml:lang="x-none">Bangladesh</langstring>
         </title>
       </general>
       <lifecycle>
@@ -50,11 +50,11 @@
       </rights>
     </lom>
   </metadata>
-  <organizations default="Bangladesh_Introduction_ORG">
-    <organization identifier="Bangladesh_Introduction_ORG">
-      <title>Bangladesh Introduction</title>
+  <organizations default="Bangladesh_ORG">
+    <organization identifier="Bangladesh_ORG">
+      <title>Bangladesh</title>
       <item identifier="Bangladesh_Introduction_SCO" isvisible="true" identifierref="__5wAXuXvivim_RES">
-        <title>Bangladesh Introduction</title>
+        <title>Bangladesh</title>
       </item>
     </organization>
   </organizations>
@@ -62,6 +62,7 @@
     <resource identifier="__5wAXuXvivim_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
       <file href="story_content/thumbnail.jpg" />
       <file href="mobile/6Bdv5iFlCiO.jpg" />
+      <file href="story_content/6QH4a6MJoGS_44100_48_0.mp3" />
       <file href="mobile/649iCjFTzxc.jpg" />
       <file href="story_content/video_6MRNIdDyivz_22_48_720x540.mp4" />
       <file href="mobile/poster_5VsQ73MEord_video_6MRNIdDyivz_22_48_720x540.jpg" />
