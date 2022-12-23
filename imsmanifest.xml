@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest identifier="_63iGxT3gLhD" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<manifest identifier="_5wAXuXvivim" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
   <metadata>
     <schema>ADL SCORM</schema>
     <schemaversion>1.2</schemaversion>
     <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
       <general>
         <title>
-          <langstring xml:lang="x-none">Introduction to Munich City</langstring>
+          <langstring xml:lang="x-none">Bangladesh Introduction</langstring>
         </title>
       </general>
       <lifecycle>
@@ -50,33 +50,37 @@
       </rights>
     </lom>
   </metadata>
-  <organizations default="Introduction_to_Munich_City_ORG">
-    <organization identifier="Introduction_to_Munich_City_ORG">
-      <title>Introduction to Munich City</title>
-      <item identifier="Introduction_to_Munich_City_SCO" isvisible="true" identifierref="__63iGxT3gLhD_RES">
-        <title>Introduction to Munich City</title>
+  <organizations default="Bangladesh_Introduction_ORG">
+    <organization identifier="Bangladesh_Introduction_ORG">
+      <title>Bangladesh Introduction</title>
+      <item identifier="Bangladesh_Introduction_SCO" isvisible="true" identifierref="__5wAXuXvivim_RES">
+        <title>Bangladesh Introduction</title>
       </item>
     </organization>
   </organizations>
   <resources>
-    <resource identifier="__63iGxT3gLhD_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+    <resource identifier="__5wAXuXvivim_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
       <file href="story_content/thumbnail.jpg" />
-      <file href="mobile/5bmBlUU4ize.jpg" />
-      <file href="story_content/5rMGB1X9UPM_44100_48_0.mp3" />
-      <file href="story_content/video_6dd9saIIaDp_22_48_720x406.mp4" />
-      <file href="mobile/poster_6VBgKiQ2DXF_video_6dd9saIIaDp_22_48_720x406.jpg" />
-      <file href="story_content/video_5mkolcwsNyo_22_48_720x406.mp4" />
-      <file href="mobile/poster_6rBzRzOqJHi_video_5mkolcwsNyo_22_48_720x406.jpg" />
-      <file href="story_content/video_6fYQWRHcqp9_22_48_720x406.mp4" />
-      <file href="mobile/poster_6msMmGnRdBt_video_6fYQWRHcqp9_22_48_720x406.jpg" />
+      <file href="mobile/6Bdv5iFlCiO.jpg" />
+      <file href="mobile/649iCjFTzxc.jpg" />
+      <file href="mobile/6qqyWCYx80M.jpg" />
+      <file href="story_content/6WA4T53hShI.html" />
+      <file href="mobile/6WA4T53hShI5k4DIJyR50y{Width=560, Height=315}Light.png" />
+      <file href="story_content/5hE3rxLaQef.html" />
+      <file href="mobile/5hE3rxLaQef6TNEKrxLdvy{Width=560, Height=315}Light.png" />
+      <file href="story_content/6e1ZlBF7bRy.html" />
+      <file href="mobile/6e1ZlBF7bRy6qbPlIHcbYs{Width=560, Height=315}Light.png" />
+      <file href="story_content/5aUeZyVqMJz.html" />
+      <file href="mobile/5aUeZyVqMJz6nW8MYWaIkl{Width=560, Height=315}Light.png" />
       <file href="meta.xml" />
       <file href="story_content/user.js" />
       <file href="html5/data/css/output.min.css" />
-      <file href="html5/data/js/5nBQhL0hr2i.js" />
-      <file href="html5/data/js/5ndDXVxk0xE.js" />
-      <file href="html5/data/js/5nWgDuFnVrD.js" />
-      <file href="html5/data/js/6dhVsd5MzFI.js" />
-      <file href="html5/data/js/6r74ETlwX0H.js" />
+      <file href="html5/data/js/5lPjQe8bonf.js" />
+      <file href="html5/data/js/5qpDCogq691.js" />
+      <file href="html5/data/js/5z6iY5eb1M2.js" />
+      <file href="html5/data/js/6I60W4jtKkM.js" />
+      <file href="html5/data/js/6OPphSAhBNA.js" />
+      <file href="html5/data/js/6rn3Ceer4JJ.js" />
       <file href="html5/data/js/data.js" />
       <file href="html5/data/js/frame.js" />
       <file href="html5/data/js/paths.js" />
